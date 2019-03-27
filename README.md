@@ -1,5 +1,5 @@
-#GraphQL demo using Sprint Boot and Spring JPA
------
+GraphQL demo using Sprint Boot and Spring JPA
+=======
 
 This demo uses following libraries-
 
@@ -8,7 +8,7 @@ This demo uses following libraries-
 - Spring JPA
 - GraphQL Java
 
-#Running the demo locally
+Running the demo locally
 ---
 
     git clone https://github.com/reethified/graphqlexamples.git
@@ -18,7 +18,7 @@ This demo uses following libraries-
     
 Browse Graphql UI here- http://localhost:8443/bms/bms-graphiql
 
-#Query samples:
+Query samples:
 
 - Create a book entry using mutation
 
@@ -37,8 +37,8 @@ Browse Graphql UI here- http://localhost:8443/bms/bms-graphiql
         }
 
 
-#Database configuration
----
+Database configuration
+-------
 
 You can also connect to H2 DB UI to query tables:  http://localhost:8443/bms/h2
 Refer to application property file for more details on h2 database.
