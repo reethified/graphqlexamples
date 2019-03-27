@@ -9,7 +9,7 @@ This demo uses following libraries-
 - GraphQL Java
 
 #Running the demo locally
-----------------------------
+---
 
     git clone https://github.com/reethified/graphqlexamples.git
     cd graphqlexamples
@@ -38,7 +38,7 @@ Browse Graphql UI here- http://localhost:8443/bms/bms-graphiql
 
 
 #Database configuration
--------------------------
+---
 
 
 You can also connect to H2 DB UI to query tables:  http://localhost:8443/bms/h2
