@@ -40,33 +40,11 @@ Browse Graphql UI here- http://localhost:8443/bms/bms-graphiql
 #Database configuration
 ---
 
-
 You can also connect to H2 DB UI to query tables:  http://localhost:8443/bms/h2
-
-    H2 database is enabled using below properties:
-    spring.datasource.url=jdbc:h2:file:~/test
-    spring.datasource.username=sa
-    spring.datasource.password=
-    spring.datasource.driver-class-name=org.h2.Driver
-    
-    # Show or not log for each sql query
-    spring.jpa.show-sql = true
-    
-    # Hibernate ddl auto (create, create-drop, update)
-    spring.jpa.hibernate.ddl-auto = update
-    
-    # Naming strategy
-    spring.jpa.hibernate.naming-strategy = org.hibernate.cfg.ImprovedNamingStrategy
-    
-    # Use spring.jpa.properties.* for Hibernate native properties (the prefix is
-    # stripped before adding them to the entity manager)
-    
-    # The SQL dialect makes Hibernate generate better SQL for the chosen database
-    spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.H2Dialect
-
+Refer to application property file for more details on h2 database.
 
 ####This demo also contains-
 - How to use scalar like Date e.t.c
 
-    SchemaClassScannerError: Unable to match type definition (TypeName{name='int'}) with java type (int): No TypeDefinition for type name int
+        SchemaClassScannerError: Unable to match type definition (TypeName{name='int'}) with java type (int): No TypeDefinition for type name int
 
