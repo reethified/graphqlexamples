@@ -1,4 +1,4 @@
-###GraphQL demo using Sprint Boot and Spring JPA
+##GraphQL demo using Sprint Boot and Spring JPA
 
 This demo uses following libraries-
 
