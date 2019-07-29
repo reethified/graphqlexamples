@@ -1,34 +1,48 @@
-Handy guide to Develop GraphQL Services with GraphQL Gateway using Sprint Boot, Atlassian Braid and Spring JPA
-==============================================================================================================
+Handy guide to Develop GraphQL Services with GraphQL Gateway using Sprint Boot, Atlassian Braid and Spring JPA in java
+======================================================================================================================
 
 This demo includes
--------- 
+------------------
 
-- How to use Spring Boot with GraphQL
-- CRUD repository implementation using H2 Database
-- Spring JPA CRUD operation with GraphQL
-- GraphQL Java Integration
-- How to build a GraphQL Gateway using Atlassian Braid.
+- How to use Spring Boot with GraphQL.
+- How to build GraphQL service with microservices design patterns.
+- How to build a GraphQL Gateway using Atlassian Braid in Java.
+- GraphQL Java Integration.
 - How to create multiple GraphQL nodes, stitch together using gateway (Graphql-Basics, graphql-node2).
-- Sample maven build example to organize all nodes and master gateway. 
+- Sample maven build example to organize all graphql nodes and master gateway. 
+- CRUD repository implementation using H2 Database.
+- Spring JPA CRUD operation with GraphQL
 
 
 Technology Stack
 ----------------
 
-Spring Boot, Java, Maven, GraphQL Java, Atlassian Braid. 
+Spring Boot, Java, Maven, GraphQL Java, Atlassian Braid.
+
 
 Datagraph Diagam
 ----------------
 
-This demo contains 3 modules, a graphql-gateway to stich both services together and 2 services (modules- Graphql-Basics, graphql-node2) as individual nodes. 
+This demo contains 3 modules, a graphql-gateway to stitch both services together and 2 services (modules- Graphql-Basics, graphql-node2) as individual nodes. 
+The GraphQL gateway expands horizontal to N number of nodes. 
 ![Diagram](support-files/diagram.jpg)
+
+
+Prerequisites 
+-------------
+
+Java 8+, Maven.
 
 
 ####Demo
 
 Run the Demo locally
 --------------------
+
+    #checkout code
+    git clone https://github.com/reethified/graphqlexamples.git
+    #Build entire project
+    mvn clean install
 
 - Start basic service [Graphql-Basics node](graphqlbasics/README.md)
 - Start node 2 [graphql-node2](graphql-node2/README.md)

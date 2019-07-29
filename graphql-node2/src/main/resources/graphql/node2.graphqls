@@ -1,17 +1,3 @@
-# java.util.Date implementation
-scalar Date
-
-type Book {
-        isbn:String!,
-        title:String,
-        pubYear:Date,
-        price:Int
-}
-
 type Query {
-    allBooks: [Book]
-}
-
-type Mutation {
-    save(isbn:String!, title:String!,pubYear:String, price:Int): Boolean
+    node2Hi(message: String): String
 }

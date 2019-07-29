@@ -1,4 +1,4 @@
-package com.ts.graphqldemo.model;
+package com.ts.graphql.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

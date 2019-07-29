@@ -1,4 +1,4 @@
-package com.ts.graphqldemo.service;
+package com.ts.graphql.service;
 
 public class BMSServiceException extends Exception {
     public BMSServiceException(Exception e){

@@ -1,9 +1,8 @@
 ##GraphQL Basics Node Service
 
-Running the demo locally
----
+Running this node locally
+-------------------------
 
-    git clone https://github.com/reethified/graphqlexamples.git
     cd graphqlbasics
     mvn clean install
     java -jar target/*.jar

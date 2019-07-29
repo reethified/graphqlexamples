@@ -1,8 +1,8 @@
-package com.ts.graphqldemo.controller;
+package com.ts.graphql.controller;
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
-import com.ts.graphqldemo.model.Book;
-import com.ts.graphqldemo.service.BMSService;
+import com.ts.graphql.model.Book;
+import com.ts.graphql.service.BMSService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

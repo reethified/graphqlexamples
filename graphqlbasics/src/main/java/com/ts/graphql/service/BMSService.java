@@ -1,7 +1,7 @@
-package com.ts.graphqldemo.service;
+package com.ts.graphql.service;
 
-import com.ts.graphqldemo.model.Book;
-import com.ts.graphqldemo.repository.BookRespository;
+import com.ts.graphql.model.Book;
+import com.ts.graphql.repository.BookRespository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

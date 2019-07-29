@@ -1,4 +1,4 @@
-package com.ts.graphqldemo.controller;
+package com.ts.graphql.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
